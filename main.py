@@ -1,4 +1,5 @@
 print("Hello world")
+
 def main():
     print("123")
     print("123")
@@ -19,3 +20,5 @@ def main():
     print("123")
     print("123")
     print("123")
+print("hi")
+print("Привет мир!")
