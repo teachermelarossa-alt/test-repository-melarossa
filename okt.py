@@ -11,4 +11,6 @@ class Exercise:
         self.calories_per_min = calories_per_min
     def get_info(self):
         return (f"Название: {self.name}, Цена: {self.calories_per_min}")
+
+
         
