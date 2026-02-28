@@ -17,10 +17,24 @@ __init__(self,name,model,age)
 Человек <self.name>, возраст <self.model>,пол <self.age>
 1.3 Описать документацию - описать что делает данный класс
 
-2. Команда номер 2:
+1. Команда номер 1:
 Школа:
-1 чел. - Student(атрибуты, name,grade)
+1. чел. - Student(атрибуты, name,grade)
 Метод get_status() - Возвращает
 отлично если оценка > 8 иначе 
 Удовлетворительно
-2 чел. - Teacher(атрибуты name,subject)
+2. чел. - Teacher(атрибуты name,subject)
+Метод teach - Возвращает:
+Учитель self.name, преподает self.subject
+3. чел. - Classroom - атрибуты teacher, student
+Метод lesson - 
+Учитель <self.teacher.name> ведет урок у <self.stunent.name> оценка ученика <self.student.grade>
+
+
+2. Команда:
+1. Чел 1. - класс Product, атрибуты name, price.
+метод get_info - "Название self.name, Цена self.price"
+2. Чел 2. Discount - атрибуты product, discount.
+метод get_discount_price(self) - вычисляет цену со скидкой.
+3. Чел 3. Customer(name,)
+Метод buy()
