@@ -23,13 +23,15 @@ __init__(self,name,model,age)
 Метод get_status() - Возвращает
 отлично если оценка > 8 иначе 
 Удовлетворительно
+s = Student("ivan",7)
 2. чел. - Teacher(атрибуты name,subject)
 Метод teach - Возвращает:
 Учитель self.name, преподает self.subject
+t = Teacher("Mariya", "Math")
 3. чел. - Classroom - атрибуты teacher, student
-Метод lesson - 
+Метод lesson(self) 
 Учитель <self.teacher.name> ведет урок у <self.stunent.name> оценка ученика <self.student.grade>
-
+c = Classroom(s,t)
 
 2. Команда Фитнесс-клуб:
 1. Чел 1. - класс Exercise, атрибуты name, calories_per_min.
