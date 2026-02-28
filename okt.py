@@ -12,5 +12,10 @@ class Exercise:
     def get_info(self):
         return (f"Название: {self.name}, Цена: {self.calories_per_min}")
 
-
+class CardioSession:
+    def __init__(self, exercise, duration):
+        self.exercise = exersice
+        self.duration = duration
+    burned_calories(self)
+    self.exercise.calories_per_min * self.duration
         
