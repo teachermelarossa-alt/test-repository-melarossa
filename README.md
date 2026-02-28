@@ -31,10 +31,11 @@ __init__(self,name,model,age)
 Учитель <self.teacher.name> ведет урок у <self.stunent.name> оценка ученика <self.student.grade>
 
 
-2. Команда:
-1. Чел 1. - класс Product, атрибуты name, price.
-метод get_info - "Название self.name, Цена self.price"
-2. Чел 2. Discount - атрибуты product, discount.
-метод get_discount_price(self) - вычисляет цену со скидкой.
-3. Чел 3. Customer(name,)
-Метод buy()
+2. Команда Фитнесс-клуб:
+1. Чел 1. - класс Exercise, атрибуты name, calories_per_min.
+метод get_info - "Название self.name, Цена self.calories_per_min"
+2. Чел 2. CardioSession - атрибуты exercise, duration.
+метод burned_calories(self) - вычисляет цену калории.
+self.exercise.calories_per_min * self.duration
+3. Чел 3. Workout(cardio_session)
+Метод total_calories(self) -  вызывает cardio_session.burned_calories()
