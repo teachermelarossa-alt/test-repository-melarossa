@@ -36,7 +36,7 @@ clients = [
     Client("Tatiana Semenova", "+12345678913", "tanya13@example.com"),
     Client("Vladimir Golubev", "+12345678914", "vlad14@example.com"),
     Client("Irina Vinogradova", "+12345678915", "irina15@example.com"),
-    Client("Maxim Bogdanov", "+12345678916", "max16@example.com"),
+    Client("Maxim Bogdanotv", "+12345678916", "max16@example.com"),
     Client("Yulia Vorobyova", "+12345678917", "yulia17@example.com"),
     Client("Denis Fedorov", "+12345678918", "denis18@example.com"),
     Client("Svetlana Mikhailova", "+12345678919", "sveta19@example.com"),
