@@ -7,6 +7,8 @@ class Client:
         self.total_spent = total_spent
         self.is_loyal = is_loyal
 
+    def __str__(self):
+        return f"{self.name}, {self.phone}"
 
     def add_purchase(self,amount):
         self.visits +=1
