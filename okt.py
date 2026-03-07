@@ -14,8 +14,7 @@ class Exercise:
 
 class CardioSession:
     def __init__(self, exercise, duration):
-        self.exercise = exersice
+        self.exercise = exercise
         self.duration = duration
-    burned_calories(self)
-    self.exercise.calories_per_min * self.duration
-        
+    def burned_calories(self):
+        self.exercise.calories_per_min * self.duration 
