@@ -42,3 +42,22 @@ def average_check(storage: ClientStorage) - средний чек, если ви
 5. Статистика
 6. Выход
 
+==================================================================
+Команда 2
+FlowerCRM
+1. Стажер 1
+Файл order.py
+class Order:
+    У класс есть статусы, общее для всех STATUSES = ['новый','в работе','готов','выполнен']
+def __init__(self, order_id, bouquet, price)
+    добавить тут статус 'новый'
+    completed_at = None
+создать метод 
+def change_status(self,new_status)
+Проверить что new_status в STATUSES
+если все ок то отвечаем True
+иначе False
+def is_completed - вернуть True если status == 'выполнен'
+
+def to_dict - перевести атрибуты класс в словарь json
+{'order_id':'1234','bouquet':'розы','price':'50', 'status'='в работе', 'completed_at' = None}
