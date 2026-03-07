@@ -61,3 +61,14 @@ def is_completed - вернуть True если status == 'выполнен'
 
 def to_dict - перевести атрибуты класс в словарь json
 {'order_id':'1234','bouquet':'розы','price':'50', 'status'='в работе', 'completed_at' = None}
+
+2. Стажер 2 создать файл order_storage.py
+class OrderStorage
+def __init__:
+добавить атрибут order = список пустой
+def add_order - добавить клиента в заказы
+def get_all - вернуть всех заказы
+def get_active_orders - вернуть только активные заказы
+def _save - сохранить все заказы в json -
+использовать order.to_dict для каждого
+
