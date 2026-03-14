@@ -5,3 +5,4 @@ class Person:
         self.sex = sex
     def introduce_person(self):
         return f"Человек{self.name},возраст{self.age},пол{self.sex}"
+        
